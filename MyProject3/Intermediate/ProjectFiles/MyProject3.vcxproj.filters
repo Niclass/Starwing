@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\MyProject3.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{D370F41F-0448-4C11-8538-A4EAB3406BD6}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\MyProject3.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\MyProject3Editor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{756060A7-6A23-4710-9F71-0AC0C9FFDF75}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\MyProject3">
+			<UniqueIdentifier>{12651305-4799-46CF-A64C-4925A1AA26D7}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\MyProject3\MyProject3.Build.cs">
+			<Filter>Source\MyProject3</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\MyProject3\MyProject3.cpp">
+			<Filter>Source\MyProject3</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\MyProject3\MyProject3.h">
+			<Filter>Source\MyProject3</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\MyProject3\MyProject3GameMode.cpp">
+			<Filter>Source\MyProject3</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\MyProject3\MyProject3GameMode.h">
+			<Filter>Source\MyProject3</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\MyProject3\MyProject3Pawn.cpp">
+			<Filter>Source\MyProject3</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\MyProject3\MyProject3Pawn.h">
+			<Filter>Source\MyProject3</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
